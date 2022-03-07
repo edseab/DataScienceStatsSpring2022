@@ -1,0 +1,15 @@
+name: stat-rethink2
+channels:
+- defaults
+dependencies:
+  - git
+  - jupyter
+  - seaborn
+  - mkl-service
+  - pip
+  - pip:
+     - watermark
+     - arviz
+     - pymc3
+     - causalgraphicalmodels
+     - daft
