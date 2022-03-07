@@ -7,9 +7,11 @@ For code in R, as well as supplemental materials, please see https://github.com/
 To use this repo, please clone this repository. Then in Anaconda set your working directory to this repo and run:
 
 conda env create -f environment.yml
+
 conda activate stat-rethink2
 
-You can run code in Jupyter notebook. For this run
+You can run code in Jupyter notebook. For this run:
+
 jupyter notebook
 
 This will allow you to open the .ipynb files or create new files of your own.
