@@ -13,3 +13,4 @@ dependencies:
      - pymc3
      - causalgraphicalmodels
      - daft
+     - statsmodels
