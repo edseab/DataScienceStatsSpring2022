@@ -1,11 +1,18 @@
 name: stat-rethink2
 channels:
-- defaults
+  - conda-forge
+  - defaults
 dependencies:
+  - libpython
+  - blas
   - git
   - jupyter
   - seaborn
   - mkl-service
+  - m2w64-toolchain
+  - python-graphviz
+  - scipy
+  - numba
   - pip
   - pip:
      - watermark
@@ -15,3 +22,5 @@ dependencies:
      - daft
      - statsmodels
      - pymc3-quap
+
+
